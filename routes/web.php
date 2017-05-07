@@ -18,3 +18,5 @@ Route::get('contact', 'PagesController@getContact');
 Route::get('about', 'PagesController@getAbout');
 
 Route::get('/', 'PagesController@getWelcome');
+
+Auth::routes();
